@@ -1,8 +1,5 @@
 package com.example.SAMU_API.domain.intercessor;
 
-import com.example.SAMU_API.domain.escala.Escala;
-import com.example.SAMU_API.domain.intercessor.Intercessor;
-import com.example.SAMU_API.domain.intercessor.TipoIntercessor;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -22,4 +19,5 @@ public class Intercessor {
     private String nome;
     private Integer idade;
     private String telefone;
+    private Boolean ativo;
 }

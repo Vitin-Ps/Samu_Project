@@ -1,0 +1,1 @@
+ALTER TABLE escala_configuracao ADD COLUMN nome VARCHAR(255) NOT NULL;

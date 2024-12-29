@@ -19,6 +19,7 @@ public class EscalaConfiguracao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String nome;
     private Integer max_participacoes;
     private Integer percentual_principal;
 }

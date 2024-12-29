@@ -1,0 +1,1 @@
+ALTER TABLE escala_personalizada_dias ALTER COLUMN dia_semana TYPE CHAR (14);

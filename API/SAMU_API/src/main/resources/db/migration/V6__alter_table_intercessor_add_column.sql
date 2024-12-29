@@ -1,0 +1,1 @@
+ALTER TABLE intercessor ALTER COLUMN ativo TYPE BOOLEAN USING (ativo = 1);

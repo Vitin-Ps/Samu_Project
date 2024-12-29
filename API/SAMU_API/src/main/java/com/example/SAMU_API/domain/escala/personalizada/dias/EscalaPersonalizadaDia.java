@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class EscalaPersonalizadaDias {
+public class EscalaPersonalizadaDia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,5 +23,6 @@ public class EscalaPersonalizadaDias {
     private EscalaPersonalizada escalaPersonalizada;
     private String nome;
     private Integer numero_intercessores;
-    private Integer dia_semana;
+    @Enumerated(EnumType.STRING)
+    private DiasDaSemana dia_semana;
 }
