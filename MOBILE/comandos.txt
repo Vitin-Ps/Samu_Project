@@ -14,3 +14,5 @@ yarn add @fortawesome/react-native-fontawesome
 yarn add  @fortawesome/fontawesome-svg-core
 yarn add  @fortawesome/free-solid-svg-icons
 yarn add  @fortawesome/react-native-fontawesome
+
+
