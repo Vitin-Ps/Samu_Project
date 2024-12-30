@@ -1,0 +1,10 @@
+yarn add @react-navigation/native
+yarn add react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native-stack
+yarn add @react-navigation/bottom-tabs
+
+
+yarn add @fortawesome/react-native-fontawesome
+yarn add  @fortawesome/fontawesome-svg-core
+yarn add  @fortawesome/free-solid-svg-icons
+yarn add  @fortawesome/react-native-fontawesome
