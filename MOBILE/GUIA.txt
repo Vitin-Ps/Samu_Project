@@ -2,6 +2,13 @@ npx @react-native-community/cli init <nome_projeto>
 
 //yarn add typescript @types/react @types/react-native
 
+npm install
+
+cd android
+./gradlew clean
+./gradlew assembleRelease
+
+
 abra a pasta android no android studio para baixar o gradle
 
 yarn add @react-navigation/native
