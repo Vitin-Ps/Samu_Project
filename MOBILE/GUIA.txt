@@ -1,29 +1,32 @@
 npx @react-native-community/cli init <nome_projeto>
 
-//yarn add typescript @types/react @types/react-native
-
 npm install
+OU
+yarn install
 
 cd android
 ./gradlew clean
 ./gradlew assembleRelease
 
+OU
 
 abra a pasta android no android studio para baixar o gradle
+
+React-navigation:
 
 yarn add @react-navigation/native
 yarn add react-native-screens react-native-safe-area-context
 yarn add @react-navigation/native-stack
+yarn add @react-navigation/bottom-tabs
 
-Pressione Win + R, digite gpedit.msc e pressione Enter.
+Native-Base:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
-Localize ou crie o valor DWORD LongPathsEnabled e defina como 1
+yarn add native-base 
+yarn add react-native-svg
+yarn add react-native-safe-area-context
+
 
 npx react-native run-android
-
-
-yarn add @react-navigation/bottom-tabs
 
 
 yarn add @fortawesome/react-native-fontawesome
