@@ -1,10 +1,10 @@
 import {KeyboardAvoidingView, StatusBar} from 'react-native';
-import Routes from './Routes';
+// import Routes from './Routes';
 
 const App = () => {
   return (
    <KeyboardAvoidingView>
-    <Routes/>
+    {/* <Routes/> */}
    </KeyboardAvoidingView>
   );
 };
