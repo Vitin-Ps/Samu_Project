@@ -14,6 +14,23 @@ abra a pasta android no android studio para baixar o gradle
 yarn add @react-navigation/native
 yarn add react-native-screens react-native-safe-area-context
 yarn add @react-navigation/native-stack
+
+npx gluestack-ui init
+
+yarn add react-native-svg
+
+yarn add react-native-reanimated
+
+ajuste o local do global.css no app.tsx
+
+Pressione Win + R, digite gpedit.msc e pressione Enter.
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+Localize ou crie o valor DWORD LongPathsEnabled e defina como 1
+
+npx react-native run-android
+
+
 yarn add @react-navigation/bottom-tabs
 
 
