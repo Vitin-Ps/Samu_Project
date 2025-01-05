@@ -1,9 +1,15 @@
-import {KeyboardAvoidingView, Text} from 'react-native';
+import {KeyboardAvoidingView, Text} from 'native-base';
+import Botao from '../components/Botao';
+import {useState} from 'react';
 
 const Home = () => {
+  const [isloading, setIsloading] = useState<boolean>(false);
   return (
     <KeyboardAvoidingView>
-      <Text>Hello World</Text>
+      <Text m={5}>Hello World</Text>
+      <Botao isLoading={isloading} setIsLoading={setIsloading} m={10}>
+        <Text>TESTE</Text>
+      </Botao>
     </KeyboardAvoidingView>
   );
 };

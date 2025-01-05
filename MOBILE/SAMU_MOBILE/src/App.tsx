@@ -1,11 +1,12 @@
-import {KeyboardAvoidingView, StatusBar} from 'react-native';
 import Routes from './Routes';
+import { NativeBaseProvider, StatusBar, theme } from 'native-base';
 
 const App = () => {
   return (
-   <KeyboardAvoidingView>
+   <NativeBaseProvider theme={theme}>
+    <StatusBar backgroundColor={theme.colors.gray[400]}/>
     <Routes/>
-   </KeyboardAvoidingView>
+   </NativeBaseProvider>
   );
 };
 
