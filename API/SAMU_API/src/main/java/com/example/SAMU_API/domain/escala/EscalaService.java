@@ -6,7 +6,7 @@ import com.example.SAMU_API.domain.escala.configuracao.EscalaConfiguracao;
 import com.example.SAMU_API.domain.escala.intercessor.EscalaIntercessor;
 import com.example.SAMU_API.domain.intercessor.Intercessor;
 import com.example.SAMU_API.domain.intercessor.TipoIntercessor;
-import com.example.SAMU_API.infra.ValidacaoException;
+import com.example.SAMU_API.infra.exception.ValidacaoException;
 import com.example.SAMU_API.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

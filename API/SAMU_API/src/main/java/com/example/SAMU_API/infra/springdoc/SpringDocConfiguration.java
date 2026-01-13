@@ -1,4 +1,4 @@
-package com.example.mybarbearia.infra.springdoc;
+package com.example.SAMU_API.infra.springdoc;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
